@@ -21,8 +21,9 @@ $(BUILD): tests $(DOCS_BUILD)
 	[ -f setup.py ] && python setup.py $(BUILD)
 
 # run tests
+# 	python -m unittest -v tests
 tests: .PHONY
-	python -m unittest -v tests
+	python -m unittest discover -s tests -v
 
 # build docs
 $(DOCS_BUILD):
