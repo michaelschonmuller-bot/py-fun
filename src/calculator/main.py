@@ -13,7 +13,7 @@ def main():
     # 
     print(f'{next()}: c1.add(1, 2)\t-> {c1.add(1, 2)}')
     print(f'{next()}: c2.add(8, 3)\t-> {c2.add(8, 3)}')
-    # print(f'{next()}: c1.add("1", "1")\t-> {c1.add("1", "1")}')     # <-- uncomment
+    print(f'{next()}: c1.add("1", "1")\t-> {c1.add("1", "1")}')     # <-- uncomment
     # print(f'{next()}: c1.add("X", "V")\t-> {c1.add("X", "V")}')
     # print(f'{next()}: c2.factorize(99)\t-> {c1.factorize(99)}')
     # # 
