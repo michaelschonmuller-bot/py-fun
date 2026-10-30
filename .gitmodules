@@ -1,0 +1,6 @@
+[submodule ".vscode"]
+	path = .vscode
+	url = https://github.com/sgra64/gitmodule-vscode-py
+[submodule ".devcontainer"]
+	path = .devcontainer
+	url = https://github.com/sgra64/dev-container-python
